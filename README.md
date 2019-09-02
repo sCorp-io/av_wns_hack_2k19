@@ -27,8 +27,8 @@ Code/Approach for 46th place solution on the private LB for the wns analytics wi
    * **category type wise counts** - for cat_1, cat_2, cat_3
    * **stat features for session and time**
    
-Decided to go with catboost here, and tried converting few categorical features to continuous
-The number of bins for each continous feature was decided using freedman_diaconis
-Intially the best iteration was found using validation data
-To generate the final submission a full pass over the train data was made using this best_iter
+Decided to go with catboost here, and tried converting few categorical features to continuous.
+The number of bins for each continuous feature was decided using freedman_diaconis.
+Intially the best iteration was found using validation data.
+Inorder to generate the final submission a full pass over the training set was made, setting the num_iterations to bestIteration found.
 
